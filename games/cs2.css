@@ -1,0 +1,212 @@
+*{
+  font-family: "Oswald", sans-serif;
+}
+body{
+  overflow:hidden !important;
+}
+.nav-link{
+  color:#fbac18 !important;
+}
+.nav-link:hover{
+color:#ff5757 !important;
+}
+.title{
+margin:110px 0 20px 0!important;
+color:#fbac18 !important;
+}
+.playerContainer{
+  display:flex !important;
+  justify-content: stretch !important;
+  align-items: center !important;
+  margin:10px 0 0 0;
+}
+
+.section{
+  overflow:hidden !important;
+  margin:0;
+  padding:0;
+  background-color: black !important;
+}
+
+.container-CS2{
+  overflow:hidden !important;
+  background-color: rgba(0,0,0,0.7);
+  height:100%;
+  z-index:2;
+  top:0;
+  position: absolute !important;
+  left:0;
+}
+
+.player{
+  margin:auto;
+  border:1px solid white;
+  display:grid !important;
+  place-items: center !important;
+  background-size: cover !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.smaller{
+  height:350px !important;
+  font-size:25px;
+}
+.mid{
+  height:500px;
+  font-size:40px;
+}
+.large{
+  height:600px;
+  font-size:60px;
+  font-weight: 900;
+}
+.first{
+  background-image: url('cs_maps/anubis.png');
+}
+.second{
+  background-image: url('cs_maps/dust.jpeg');
+}
+.third{
+  background-image: url('cs_maps/inferno.jpeg');
+}
+.fourth{
+  background-image: url('cs_maps/nuke.jpeg');
+}
+.fiveth{
+  background-image: url('cs_maps/overpass.jpeg');
+}
+.fiveth  > .containerTextPlayer >.containerPremier{
+  border-left:7px solid rgb(27, 35, 78) !important;
+  background-color: rgba(75, 105, 255, 1) !important;
+}
+.fiveth > .containerTextPlayer > .containerPremier > .rankingPremier{ 
+  border-left:7px solid rgb(27, 35, 78) !important; 
+  margin:0 5px 0 2px !important;
+  color:white !important;
+}
+
+
+
+.smaller > .containerTextPlayer > img{
+  width:80px !important; 
+  margin: 10px auto !important;
+}
+.mid > .containerTextPlayer > img{
+  width:100px !important; 
+  margin: 10px auto !important;
+}
+.large > .containerTextPlayer > img{
+  width:150px !important; 
+  margin: 10px auto !important;
+}
+.large > .placement{
+  font-size:45px !important;
+  margin:0px auto !important;
+}
+
+.smaller > .containerTextPlayer >.containerPremier{
+  border-left:7px solid #8847FF;
+  background-color: #432875;
+}
+.smaller > .containerTextPlayer > .containerPremier > .rankingPremier{
+  border-left:7px solid #8847FF; 
+  margin:0 5px 0 2px;
+  color:white;
+}
+
+
+
+.mid > .containerTextPlayer > .containerPremier{
+  border-left:10px solid #8847FF;
+  background-color: #432875;
+}
+.mid > .containerTextPlayer > .containerPremier >.rankingPremier{
+  border-left:10px solid #8847FF; 
+  margin:0 5px 0 2px;
+  color:white;
+}
+
+
+
+.large > .containerTextPlayer > .containerPremier{  
+  border-left:15px solid #D32CE6;
+  background-color: #6e1f77;
+}
+.large > .containerTextPlayer > .containerPremier >.rankingPremier{
+  border-left:15px solid #D32CE6; 
+  margin:0 5px 0 2px;
+  color:white;
+}
+
+
+
+.containerPremier{
+  transform: skew(-19deg);
+  width:fit-content;
+}
+.rankingPremier{
+  width:fit-content;
+  text-align:center;
+  font-weight: 900;
+  font-size:smaller;
+  
+}
+.textRankPremier{
+  margin-left:6px;
+}
+.nav-link:hover{
+  color:#ff5757;
+}
+.containerTextPlayer{
+  margin-top:100px;
+  display: grid;
+  place-items: center;
+}
+.nickname{
+  font-weight: 900;
+  background-color: #fbac18;
+  padding:0 20px;
+  border-radius: 10px;
+}
+.placement{
+  background-color: #fbac18;
+  padding:0 10px;
+  margin:5px auto;
+  font-weight: bolder;
+}
+#navbarSupportedContent{
+  margin:0px 450px !important;
+}
+@media only screen and (max-width: 1023px) {
+  #navbarSupportedContent{
+    margin:0px !important;
+}
+  body{
+    overflow:visible !important;
+  }
+  .section{
+    overflow:visible !important; 
+  }
+  .container-CS2{
+    height:fit-content !important;
+    font-size:xx-large;
+    overflow:visible !important;
+  }
+.player{
+  font-size:smaller;
+  margin:10px 0;
+  border:1px solid black;
+  background-color:rgba(0,0,0,0.7);
+  height:500px !important;
+}
+  .containerGame{
+      display:block !important;
+      width:100%;
+      height:fit-content;
+  }
+  .playerContainer{
+      display:block !important;
+  }
+
+}

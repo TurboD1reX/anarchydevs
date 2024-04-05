@@ -30,10 +30,7 @@ color:white;
     padding:0;
  
 }
-#navbarNavDropdown{
-  margin:0px 400px;
 
-}
 
 .blur-background {
   backdrop-filter: blur(10px);
@@ -88,10 +85,6 @@ color:white;
 nav{
   background-color:white;
     height:fit-content;
-}
-#navbarNavDropdown{
-  margin:0px;
-  
 }
 .dropdown-menu{
   width:10px;

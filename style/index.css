@@ -145,7 +145,8 @@ margin:20px auto!important;
       color:black !important;
       }
       #navbarSupportedContent{
-        margin:0px;
+        margin:0px!important;
+
       }
 
       .container-intro{

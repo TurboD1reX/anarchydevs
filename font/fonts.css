@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Fortnite';
+    src: url('fortnite/Burbank Big Condensed Black.otf') format('opentype');
+    src: url('fortnite/fortnite.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Valorant';
+    src: url('Valorant.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Minecraft';
+    src: url('Minecraft.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'CSGO';
+    src: url('cs_regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'GTAV';
+    src: url('gtav.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Null';
+    src: url('Null-Normal.ttf') format('truetype');
+  }

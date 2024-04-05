@@ -32,8 +32,6 @@ color:white;
 }
 #navbarNavDropdown{
   margin:0px 400px;
-  height:100%;
-  padding:0;
 
 }
 
@@ -93,8 +91,6 @@ nav{
 }
 #navbarNavDropdown{
   margin:0px;
-  height:100%;
-  padding:0;
   
 }
 .dropdown-menu{

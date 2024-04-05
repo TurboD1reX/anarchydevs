@@ -1,3 +1,6 @@
+*{
+    font-family: "Fortnite" ,sans-serif;
+}
 body{
     overflow:hidden !important;
 }
@@ -9,8 +12,8 @@ body{
     position: absolute !important;
     left:0;
 }
-#navbarNavDropdown{
-    margin:0px 500px;
+#navbarSupportedContent{
+    margin:0px 400px !important;
   }
 .title{
     font-size:50px;
@@ -63,6 +66,7 @@ margin:10px auto!important;
 background-color:#ff5757;
 padding:1px 20px;
 width:fit-content;
+font-size:25px;
 text-decoration: none !important; 
 color:white;
 font-weight: 700;
@@ -95,8 +99,8 @@ section{
         width:100%;
         height:fit-content;
     }
-    #navbarNavDropdown{
-        margin:0px;
+    #navbarSupportedContent{
+        margin:0px !important;
       }
     .playersContainer{
         display:block !important;
@@ -106,6 +110,9 @@ section{
     }
     .player{
         background-color:rgba(0,0,0,0.7)
+    }
+    .player>span{
+        margin:10px auto -25px auto;
     }
     .containerGame >a{
 margin:20px 80px !important;
